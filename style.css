@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+.sep{
+    border-right: 1px solid #000;
+    height: 100%;
+}
+strong{
+    float: right;
+}
+.sep button{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    border: 0px;
+    box-shadow: 0px 3px 6px 2px rgba(0,0,0,0.6);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+button:focus{
+    outline: 0;
+}
+button:hover{
+    background-color: rgba(206, 197, 197, 0.4);
+}
+.titles h2{
+    font-family: sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.titles .wealth{
+    float: right;
+}
+.body p{
+    display: inline-block;
+    margin-right: 10px;
+}
+.body .wealth{
+    float: right;
+    line-height: 3;
+}
+.avatar img{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.total h2{
+    font-family: none;
+    font-size: 18px;
+    display: inline-block;
+}
+.total p{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+}
+.body{
+
+    box-shadow: 0px 0px 5px 0px #d4caca;;
+    padding: 0px 10px;
+    margin: 5px 0px;
+
+}
